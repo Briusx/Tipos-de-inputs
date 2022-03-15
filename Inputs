@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+
+<body>
+<h1>Tipos de inputs</h1>
+<button type="button">Botón</button>
+<br>
+<input type="checkbox" id="cbox1" value="first_checkbox">
+<br>
+<input type="color" id="head" name="head"
+           value="#e66465">
+<br>
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2018-01-01" max="2018-12-31">
+<br>
+<input type="datetime-local" id="meeting-time"
+       name="meeting-time" value="2018-06-12T19:30"
+       min="2018-06-07T00:00" max="2018-06-14T00:00">
+<br>
+<input type="email" id="email"
+       pattern=".+@globex\.com" size="30" required>
+<br>
+<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg">
+<br>
+<input type="image" id="image" alt="Login"
+       href="https://64.media.tumblr.com/0b4bd96b5e281e791c8b6ae16de42147/2295f6ee29d43810-20/s540x810/c04b5f92ba38fe62bd67dca86a54f2754f6baeab.png">
+<br>
+<input id="bday-month" type="month" name="bday-month" value="2001-06">
+<br>
+<input type="number" id="tentacles" name="tentacles"
+       min="10" max="100">
+<br>
+<label for="pass">Password (8 characters minimum):</label>
+<input type="password" id="pass" name="password"
+       minlength="8" required>
+<br>
+<div>
+    <input type="radio" id="huey" name="drone" value="huey"
+           checked>
+    <label for="huey">Huey</label>
+  </div>
+  
+  <div>
+    <input type="radio" id="dewey" name="drone" value="dewey">
+    <label for="dewey">Dewey</label>
+  </div>
+  
+  <div>
+    <input type="radio" id="louie" name="drone" value="louie">
+    <label for="louie">Louie</label>
+  </div>
+  <br>
+  <input type="range" id="volume" name="volume"
+  min="0" max="11">
+  <br>
+  <input type="reset" value="Reset">
+  <input type="search" id="site-search" name="q">
+  <br>
+  <input type="submit" value="Send Request">
+  <br>
+  <input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
+
+<small>Format: 123-456-7890</small>
+<br>
+<input type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
+<br>
+<input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required>
+       <input type="url" name="url" id="url"
+       placeholder="https://example.com"
+       pattern="https://.*" size="30"
+       required>
+<br>
+<input type="week" name="week" id="camp-week"
+       min="2018-W18" max="2018-W26" required>
+
+
+</body>
+
+
+</html>
